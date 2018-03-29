@@ -80,7 +80,6 @@ namespace Beastie.Net.Extensions.Extensions
         {
             if (text.IsNotNullOrEmpty())
             {
-                text = text.Replace("&nbsp;", " ").Replace("  ", " ");
                 if (text.Length > length)
                 {
                     if (ellipsis)
