@@ -5,6 +5,13 @@ VisualStudioVersion = 15.0.27428.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beastie.Net.Extensions", "src\Beastie.Net.Extensions\Beastie.Net.Extensions.csproj", "{D36AC613-CFD9-49A9-8F0B-697317FB9588}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beastie.Sitecore.Extensions", "src\Beastie.Sitecore.Extensions\Beastie.Sitecore.Extensions.csproj", "{D7937214-9A5B-4DAD-BF91-CAFD865FCD95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{7282510E-E74D-4525-A7EA-5F2D8095E06C}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{D36AC613-CFD9-49A9-8F0B-697317FB9588}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D36AC613-CFD9-49A9-8F0B-697317FB9588}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D36AC613-CFD9-49A9-8F0B-697317FB9588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7937214-9A5B-4DAD-BF91-CAFD865FCD95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7937214-9A5B-4DAD-BF91-CAFD865FCD95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7937214-9A5B-4DAD-BF91-CAFD865FCD95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7937214-9A5B-4DAD-BF91-CAFD865FCD95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
